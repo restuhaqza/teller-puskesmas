@@ -12,8 +12,17 @@ class Pasien
     vector<string> fullname;
     vector<string> address;
 
+  protected:
+    struct riwayat
+    {
+        vector<int> noCode;
+        vector<string> keterangan;
+        vector<string> tanggal;
+    } riwayat;
+
   public:
-    void createPasien()
+    void
+    createPasien()
     {
         int _idNumber;
         string _fullname, _address;
@@ -37,7 +46,7 @@ class Pasien
         cout << "\nNomor Identitas : " << this->idNumber[this->idNumber.size() - 1];
         cout << "\nNama Lengkap :" << this->fullname[this->fullname.size() - 1];
         cout << "\nAlamat :" << this->address[this->address.size() - 1];
-        cout << "\n============================================================";
+        cout << "\n============================================================\n\n\n3";
     }
 
   private:
@@ -65,7 +74,7 @@ class Pasien
         return noCodeTemp;
     }
 
-  private:
+  protected:
     int search(int noCode)
     {
         int index = -1;
@@ -79,7 +88,7 @@ class Pasien
         return index;
     }
 
-  private:
+  public:
     void getDetailPasien()
     {
         int index;
@@ -100,7 +109,7 @@ class Pasien
         {
             cout << "\n|===================================================|";
             cout << "\n|             Data Tidak Di Temukan                 |";
-            cout << "\n|===================================================|";
+            cout << "\n|===================================================|\n\n";
         }
     }
 

@@ -7,21 +7,21 @@ using namespace std;
 class Queue
 {
 
-  private:
+private:
 	struct queue
 	{
 		string data[MAX];
 		int awal, akhir;
 	} antrian;
 
-  private:
+private:
 	void init()
 	{
 		antrian.awal = -1;
 		antrian.akhir = -1;
 	}
 
-  private:
+private:
 	bool full()
 	{
 		if (antrian.akhir == MAX - 1)
@@ -34,7 +34,7 @@ class Queue
 		}
 	}
 
-  private:
+private:
 	bool empty()
 	{
 		if (antrian.akhir == -1)
@@ -47,7 +47,7 @@ class Queue
 		}
 	}
 
-  private:
+private:
 	void deQueue()
 	{
 		int i;
@@ -65,14 +65,14 @@ class Queue
 		}
 	}
 
-  private:
+private:
 	void clear()
 	{
 		antrian.awal = -1;
 		antrian.akhir = -1;
 	}
 
-  private:
+private:
 	void setQueue()
 	{
 		int jml;
@@ -89,7 +89,7 @@ class Queue
 		cout << jml << " Antrian berhasil ditambahkan !" << endl;
 	}
 
-  private:
+private:
 	void queueNow()
 	{
 		int i;
@@ -104,7 +104,7 @@ class Queue
 		cout << "\n";
 	}
 
-  private:
+private:
 	void inQueue()
 	{
 		string elemen;
@@ -125,7 +125,7 @@ class Queue
 		getchar();
 	}
 
-  public:
+public:
 	void main()
 	{
 		int menu;
