@@ -5,6 +5,23 @@
 
 using namespace std;
 
+/*
+@Author
+Name : 
+1. Restu Haqqi Muzakir (17.62.0106)
+2. Bayu Afrizal (17.62.0100)
+
+Title : Sistem Teller di Puskesmas
+
+Materi:
+1.OOP : Class dan Object, Enkapsulasi, Inheritance
+2.Struktur Data : Array, Struct, Queue, Searching (Sequential Search), Bubble Sort
+
+Last Update : 28/11/2017 - 19:44 WIB
+
+Git Repository : https://gitlab.com/restuhaqza/apotik-cpp
+*/
+
 Queue q;
 // Pasien p;
 Riwayat r;
