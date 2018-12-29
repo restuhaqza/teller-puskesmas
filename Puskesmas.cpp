@@ -19,7 +19,7 @@ Materi:
 
 Last Update : 28/11/2017 - 19:44 WIB
 
-Git Repository : https://gitlab.com/restuhaqza/apotik-cpp
+Git Repository : https://gitlab.com/restuhaqza/teller-puskesmas
 */
 
 Queue q;
