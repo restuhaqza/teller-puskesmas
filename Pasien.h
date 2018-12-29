@@ -46,7 +46,7 @@ class Pasien
         cout << "\nNomor Identitas : " << this->idNumber[this->idNumber.size() - 1];
         cout << "\nNama Lengkap :" << this->fullname[this->fullname.size() - 1];
         cout << "\nAlamat :" << this->address[this->address.size() - 1];
-        cout << "\n============================================================\n\n\n3";
+        cout << "\n============================================================\n\n\n";
     }
 
   private:
